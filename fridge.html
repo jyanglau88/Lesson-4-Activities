@@ -77,13 +77,13 @@
       // 3. Then give each "letterBtn" the following classes: "letter-button" "letter" "letter-button-color".
       
         // PREVIOUS ASSIGNMENT Here we loop through our array using the forEach method and append a new div with each iteration
-      drinkList.forEach(function(drink) {
+      letterBtn.addClass(function(drink) {
       drinkDiv.append("<div>" + drink + "</div>");
     });
 
 
       // 4. Then give each "letterBtn" an attribute called "data-letter", with a value eqaual to "letters[i]"
-
+      
       // 5. Then give each "letterBtn" a text equal to "letters[i]".
 
       // 6. Finally, append each "letterBtn" to the "#buttons" div (provided).
