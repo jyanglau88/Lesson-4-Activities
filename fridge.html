@@ -56,7 +56,7 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
 
       // Here we are provided an initial array of letters.
       // Use this array to dynamically create buttons on the screen.
@@ -66,24 +66,25 @@
       // MAJOR TASK #1: DYNAMICALLY CREATE BUTTONS
       // =================================================================================
 
-      // 1. Create a for-loop to iterate through the letters array.
-      
+      // 1. Create a for-loop to iterate through the letters array.]
+      for (var i = 0; i < letters.length; i++) {
+
+      }
+
       // Inside the loop...
 
       // 2. Create a variable named "letterBtn" equal to $("<button>");
-        var letterBtn = $("<button>");
+      var letterBtn = $("<button>");
 
 
       // 3. Then give each "letterBtn" the following classes: "letter-button" "letter" "letter-button-color".
-      
-        // PREVIOUS ASSIGNMENT Here we loop through our array using the forEach method and append a new div with each iteration
-      letterBtn.addClass(function(drink) {
-      drinkDiv.append("<div>" + drink + "</div>");
-    });
 
+      // PREVIOUS ASSIGNMENT Here we loop through our array using the forEach method and append a new div with each iteration
+      letterBtn.addClass("letter-button letter letter-button-color");
 
       // 4. Then give each "letterBtn" an attribute called "data-letter", with a value eqaual to "letters[i]"
-      
+      attr
+
       // 5. Then give each "letterBtn" a text equal to "letters[i]".
 
       // 6. Finally, append each "letterBtn" to the "#buttons" div (provided).
